@@ -12,7 +12,7 @@ export default function CardTransacoes({ type, title, datetime, amount }: Transa
   return (
     <div className="bg-[#1E1E2D] p-4 rounded-md flex justify-between items-center">
       <div className="flex items-start gap-3">
-        <div className={`rounded-full p-1 ${!type ? 'bg-green-700' : 'bg-red-700'}`}>
+        <div className={`rounded-full p-1 ${!type ? 'bg-green-950' : 'bg-red-950'}`}>
           {!type ? (
             <ArrowDownCircle className="text-white w-5 h-5" />
           ) : (
